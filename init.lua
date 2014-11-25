@@ -63,6 +63,9 @@ minetest.register_craft({
 -- An alias to make things easier.
 minetest.register_alias('mese_fence', 'mese_fence:mese_fence')
 
+-- Backwards compatibility.
+dofile(minetest.get_modpath("mese_fence").."/legacy.lua");
+
 -- Mod loaded message.
 print('[mese_fence] loaded.')
 
