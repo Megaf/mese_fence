@@ -22,7 +22,7 @@ minetest.register_node("mese_fence:mese_fence", {
 			{x = 0, y = 0, z = -1},
 			{x = 0, y = 0, z = 1},
 		},
-		onstate = "mese_fence:mesefence_active",
+		onstate = "mese_fence:mese_fence_active",
 	}}
 })
 
@@ -64,5 +64,5 @@ minetest.register_craft({
 minetest.register_alias('mese_fence', 'mese_fence:mese_fence')
 
 -- Mod loaded message.
-print('[mesecons_mesefence] loaded.')
+print('[mese_fence] loaded.')
 
