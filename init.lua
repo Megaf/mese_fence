@@ -63,15 +63,6 @@ minetest.register_craft({
 -- An alias to make things easier.
 minetest.register_alias('mese_fence', 'mese_fence:mese_fence')
 
--- Backwards compatibility.
-minetest.register_alias('mesecons_mesefence:mese_fence', 'mese_fence:mese_fence')
-minetest.register_alias('mesecons_random:conductingfence', 'mese_fence:mese_fence')
-minetest.register_alias('mesecons_mese_fence:mese_fence', 'mese_fence:mese_fence')
-
-minetest.register_alias('mesecons_mesefence:mese_fence_active', 'mese_fence:mese_fence_active')
-minetest.register_alias('mesecons_random:conductingfence_active', 'mese_fence:mese_fence_active')
-minetest.register_alias('mesecons_mese_fence:mese_fence_active', 'mese_fence:mese_fence_active')
-
 -- Mod loaded message.
 print('[mesecons_mesefence] loaded.')
 
