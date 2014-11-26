@@ -64,7 +64,6 @@ minetest.register_craft({
 minetest.register_alias('mese_fence', 'mese_fence:mese_fence')
 
 -- Backwards compatibility.
--- dofile(minetest.get_modpath("mese_fence").."/legacy.lua");
 minetest.register_alias('mesecons_mesefence:mese_fence', 'mese_fence:mese_fence')
 minetest.register_alias('mesecons_random:conductingfence', 'mese_fence:mese_fence')
 minetest.register_alias('mesecons_mese_fence:mese_fence', 'mese_fence:mese_fence')
